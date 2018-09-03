@@ -4,9 +4,8 @@ class Info extends Component {
   render() {
     return (
       <div className='container_Info'>
-        <h2>Drew Hackelman</h2>
-        <p>Fullstack Developer based in Durham, NC.</p>
-        <p>Currently working for Apex Systems</p>
+        <h2 className="content_info">Drew Hackelman</h2>
+        <p className="content_info">Fullstack Developer based in Durham, NC</p>
       </div>
     );
   }
