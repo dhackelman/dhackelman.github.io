@@ -52,6 +52,15 @@
   white-space: nowrap;
 }
 
+.container_Modal {
+    text-align: center;
+}
+
+.container_Modal span {
+    font-weight: 700; 
+    text-decoration: underline;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
