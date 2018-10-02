@@ -6,10 +6,10 @@ import CheckEmOut from './Components/CheckEmOut';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <SuperBasic />
-        <CheckEmOut />
-      </div>
+          <div className="App">
+            <SuperBasic />
+            <CheckEmOut />
+          </div>
     );
   }
 }

@@ -28,7 +28,7 @@ class CheckEmOut extends Component {
   render() {
     return (
       <div className='container_Projects'>
-        <a href="https://dhackelman.github.io/jersey_history/" target="_blank">
+        <a href="https://nytimes.com/" target="_blank">
           <FaBasketball size={32} color={'black'} />
           <span className="titles">JerseyApp</span>
         </a>
