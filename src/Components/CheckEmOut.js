@@ -32,15 +32,15 @@ class CheckEmOut extends Component {
           <FaBasketball size={32} color={'black'} />
           <span className="titles">JerseyApp</span>
         </a>
-        <a href="javascript:void(0);" onClick={() => this.openModal()}>
+        <a onClick={() => this.openModal()}>
           <FaBomb size={32} color={'black'} />
           <span className="titles">Ba-Bomb</span>
         </a>
-        <a href="javascript:void(0);" onClick={() => this.openModal()}>
+        <a onClick={() => this.openModal()}>
           <FaPhone size={32} color={'black'} />
           <span className="titles">Chat-Tastic</span>
         </a>
-        <Modal 
+        <Modal
             visible={this.state.visible}
             width="300"
             height="200"
