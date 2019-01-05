@@ -26,14 +26,6 @@ class CheckEmOut extends Component {
   render() {
     return (
       <div className='container_Projects'>
-        <a href="https://jerseynumnum.com/" target="_blank">
-          <FaBasketball size={32} color={'black'} />
-          <span className="titles">JerseyNumNum</span>
-        </a>        
-        <a href="https://kingsofbicycles.com/" target="_blank">
-          <FaBicycle size={32} color={'black'} />
-          <span className="titles">KingOfBicycles</span>
-        </a>
       </div>
     );
   }
